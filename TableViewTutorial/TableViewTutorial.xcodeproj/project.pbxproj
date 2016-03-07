@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC313DA71C19B1D5005D7AD8 /* UsersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC313DA61C19B1D5005D7AD8 /* UsersInfo.swift */; };
+		EC313DA91C19B247005D7AD8 /* DummyDataMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC313DA81C19B247005D7AD8 /* DummyDataMaker.swift */; };
+		EC313DAA1C19B8C6005D7AD8 /* UsersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC313DA61C19B1D5005D7AD8 /* UsersInfo.swift */; };
+		EC313DAB1C19B8C6005D7AD8 /* DummyDataMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC313DA81C19B247005D7AD8 /* DummyDataMaker.swift */; };
+		EC72A0EB1C156B4F0030ED14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72A0EA1C156B4F0030ED14 /* AppDelegate.swift */; };
+		EC72A0ED1C156B4F0030ED14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72A0EC1C156B4F0030ED14 /* ViewController.swift */; };
+		EC72A0F01C156B4F0030ED14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC72A0EE1C156B4F0030ED14 /* Main.storyboard */; };
+		EC72A0F21C156B4F0030ED14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC72A0F11C156B4F0030ED14 /* Assets.xcassets */; };
+		EC72A0F51C156B4F0030ED14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC72A0F31C156B4F0030ED14 /* LaunchScreen.storyboard */; };
+		EC72A0FA1C156B500030ED14 /* TableViewTutorial WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EC72A0F91C156B500030ED14 /* TableViewTutorial WatchKit App.app */; };
+		EC72A1001C156B500030ED14 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC72A0FE1C156B500030ED14 /* Interface.storyboard */; };
+		EC72A1021C156B500030ED14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC72A1011C156B500030ED14 /* Assets.xcassets */; };
+		EC72A1091C156B500030ED14 /* TableViewTutorial WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EC72A1081C156B500030ED14 /* TableViewTutorial WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EC72A10E1C156B500030ED14 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72A10D1C156B500030ED14 /* InterfaceController.swift */; };
+		EC72A1101C156B500030ED14 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72A10F1C156B500030ED14 /* ExtensionDelegate.swift */; };
+		EC72A1221C156F100030ED14 /* UserTableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72A1211C156F100030ED14 /* UserTableViewData.swift */; };
+		EC72A1241C159B760030ED14 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC72A1231C159B760030ED14 /* DetailVC.swift */; };
+		ECE08A9C1C1819D600D1DBD8 /* Yogesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECE08A9B1C1819D600D1DBD8 /* Yogesh.jpg */; };
+		ECE08A9D1C1819D600D1DBD8 /* Yogesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECE08A9B1C1819D600D1DBD8 /* Yogesh.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC72A0FB1C156B500030ED14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC72A0DF1C156B4F0030ED14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC72A0F81C156B500030ED14;
+			remoteInfo = "TableViewTutorial WatchKit App";
+		};
+		EC72A10A1C156B500030ED14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC72A0DF1C156B4F0030ED14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC72A1071C156B500030ED14;
+			remoteInfo = "TableViewTutorial WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC72A1191C156B500030ED14 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EC72A1091C156B500030ED14 /* TableViewTutorial WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72A11D1C156B500030ED14 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EC72A0FA1C156B500030ED14 /* TableViewTutorial WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC313DA61C19B1D5005D7AD8 /* UsersInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersInfo.swift; path = "../TableViewTutorial WatchKit App/UsersInfo.swift"; sourceTree = "<group>"; };
+		EC313DA81C19B247005D7AD8 /* DummyDataMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DummyDataMaker.swift; path = "../TableViewTutorial WatchKit App/DummyDataMaker.swift"; sourceTree = "<group>"; };
+		EC72A0E71C156B4F0030ED14 /* TableViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC72A0EA1C156B4F0030ED14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC72A0EC1C156B4F0030ED14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC72A0EF1C156B4F0030ED14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC72A0F11C156B4F0030ED14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC72A0F41C156B4F0030ED14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC72A0F61C156B4F0030ED14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC72A0F91C156B500030ED14 /* TableViewTutorial WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewTutorial WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC72A0FF1C156B500030ED14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EC72A1011C156B500030ED14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC72A1031C156B500030ED14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC72A1081C156B500030ED14 /* TableViewTutorial WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TableViewTutorial WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC72A10D1C156B500030ED14 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EC72A10F1C156B500030ED14 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EC72A1111C156B500030ED14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC72A1131C156B500030ED14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC72A1211C156F100030ED14 /* UserTableViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewData.swift; sourceTree = "<group>"; };
+		EC72A1231C159B760030ED14 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		ECE08A9B1C1819D600D1DBD8 /* Yogesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yogesh.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC72A0E41C156B4F0030ED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72A1051C156B500030ED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC72A0DE1C156B4F0030ED14 = {
+			isa = PBXGroup;
+			children = (
+				EC72A0E91C156B4F0030ED14 /* TableViewTutorial */,
+				EC72A0FD1C156B500030ED14 /* TableViewTutorial WatchKit App */,
+				EC72A10C1C156B500030ED14 /* TableViewTutorial WatchKit Extension */,
+				EC72A0E81C156B4F0030ED14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC72A0E81C156B4F0030ED14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC72A0E71C156B4F0030ED14 /* TableViewTutorial.app */,
+				EC72A0F91C156B500030ED14 /* TableViewTutorial WatchKit App.app */,
+				EC72A1081C156B500030ED14 /* TableViewTutorial WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC72A0E91C156B4F0030ED14 /* TableViewTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EC72A0EA1C156B4F0030ED14 /* AppDelegate.swift */,
+				EC72A0EC1C156B4F0030ED14 /* ViewController.swift */,
+				EC72A0EE1C156B4F0030ED14 /* Main.storyboard */,
+				EC72A0F11C156B4F0030ED14 /* Assets.xcassets */,
+				EC72A0F31C156B4F0030ED14 /* LaunchScreen.storyboard */,
+				EC72A0F61C156B4F0030ED14 /* Info.plist */,
+			);
+			path = TableViewTutorial;
+			sourceTree = "<group>";
+		};
+		EC72A0FD1C156B500030ED14 /* TableViewTutorial WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF1E8B1C1711CB00DBC1D5 /* Images */,
+				EC72A0FE1C156B500030ED14 /* Interface.storyboard */,
+				EC72A1011C156B500030ED14 /* Assets.xcassets */,
+				EC72A1031C156B500030ED14 /* Info.plist */,
+			);
+			path = "TableViewTutorial WatchKit App";
+			sourceTree = "<group>";
+		};
+		EC72A10C1C156B500030ED14 /* TableViewTutorial WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC313DA61C19B1D5005D7AD8 /* UsersInfo.swift */,
+				EC313DA81C19B247005D7AD8 /* DummyDataMaker.swift */,
+				EC72A10D1C156B500030ED14 /* InterfaceController.swift */,
+				EC72A10F1C156B500030ED14 /* ExtensionDelegate.swift */,
+				EC72A1111C156B500030ED14 /* Assets.xcassets */,
+				EC72A1131C156B500030ED14 /* Info.plist */,
+				EC72A1211C156F100030ED14 /* UserTableViewData.swift */,
+				EC72A1231C159B760030ED14 /* DetailVC.swift */,
+			);
+			path = "TableViewTutorial WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ECAF1E8B1C1711CB00DBC1D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECE08A9B1C1819D600D1DBD8 /* Yogesh.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC72A0E61C156B4F0030ED14 /* TableViewTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC72A11E1C156B500030ED14 /* Build configuration list for PBXNativeTarget "TableViewTutorial" */;
+			buildPhases = (
+				EC72A0E31C156B4F0030ED14 /* Sources */,
+				EC72A0E41C156B4F0030ED14 /* Frameworks */,
+				EC72A0E51C156B4F0030ED14 /* Resources */,
+				EC72A11D1C156B500030ED14 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC72A0FC1C156B500030ED14 /* PBXTargetDependency */,
+			);
+			name = TableViewTutorial;
+			productName = TableViewTutorial;
+			productReference = EC72A0E71C156B4F0030ED14 /* TableViewTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC72A0F81C156B500030ED14 /* TableViewTutorial WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC72A11A1C156B500030ED14 /* Build configuration list for PBXNativeTarget "TableViewTutorial WatchKit App" */;
+			buildPhases = (
+				EC72A0F71C156B500030ED14 /* Resources */,
+				EC72A1191C156B500030ED14 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC72A10B1C156B500030ED14 /* PBXTargetDependency */,
+			);
+			name = "TableViewTutorial WatchKit App";
+			productName = "TableViewTutorial WatchKit App";
+			productReference = EC72A0F91C156B500030ED14 /* TableViewTutorial WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EC72A1071C156B500030ED14 /* TableViewTutorial WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC72A1161C156B500030ED14 /* Build configuration list for PBXNativeTarget "TableViewTutorial WatchKit Extension" */;
+			buildPhases = (
+				EC72A1041C156B500030ED14 /* Sources */,
+				EC72A1051C156B500030ED14 /* Frameworks */,
+				EC72A1061C156B500030ED14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewTutorial WatchKit Extension";
+			productName = "TableViewTutorial WatchKit Extension";
+			productReference = EC72A1081C156B500030ED14 /* TableViewTutorial WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC72A0DF1C156B4F0030ED14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yogesh Bharate";
+				TargetAttributes = {
+					EC72A0E61C156B4F0030ED14 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EC72A0F81C156B500030ED14 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EC72A1071C156B500030ED14 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EC72A0E21C156B4F0030ED14 /* Build configuration list for PBXProject "TableViewTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC72A0DE1C156B4F0030ED14;
+			productRefGroup = EC72A0E81C156B4F0030ED14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC72A0E61C156B4F0030ED14 /* TableViewTutorial */,
+				EC72A0F81C156B500030ED14 /* TableViewTutorial WatchKit App */,
+				EC72A1071C156B500030ED14 /* TableViewTutorial WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC72A0E51C156B4F0030ED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72A0F51C156B4F0030ED14 /* LaunchScreen.storyboard in Resources */,
+				EC72A0F21C156B4F0030ED14 /* Assets.xcassets in Resources */,
+				EC72A0F01C156B4F0030ED14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72A0F71C156B500030ED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE08A9C1C1819D600D1DBD8 /* Yogesh.jpg in Resources */,
+				EC72A1021C156B500030ED14 /* Assets.xcassets in Resources */,
+				EC72A1001C156B500030ED14 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72A1061C156B500030ED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE08A9D1C1819D600D1DBD8 /* Yogesh.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC72A0E31C156B4F0030ED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72A0ED1C156B4F0030ED14 /* ViewController.swift in Sources */,
+				EC313DA91C19B247005D7AD8 /* DummyDataMaker.swift in Sources */,
+				EC72A0EB1C156B4F0030ED14 /* AppDelegate.swift in Sources */,
+				EC313DA71C19B1D5005D7AD8 /* UsersInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72A1041C156B500030ED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC72A1101C156B500030ED14 /* ExtensionDelegate.swift in Sources */,
+				EC313DAA1C19B8C6005D7AD8 /* UsersInfo.swift in Sources */,
+				EC72A1241C159B760030ED14 /* DetailVC.swift in Sources */,
+				EC313DAB1C19B8C6005D7AD8 /* DummyDataMaker.swift in Sources */,
+				EC72A1221C156F100030ED14 /* UserTableViewData.swift in Sources */,
+				EC72A10E1C156B500030ED14 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC72A0FC1C156B500030ED14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC72A0F81C156B500030ED14 /* TableViewTutorial WatchKit App */;
+			targetProxy = EC72A0FB1C156B500030ED14 /* PBXContainerItemProxy */;
+		};
+		EC72A10B1C156B500030ED14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC72A1071C156B500030ED14 /* TableViewTutorial WatchKit Extension */;
+			targetProxy = EC72A10A1C156B500030ED14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC72A0EE1C156B4F0030ED14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC72A0EF1C156B4F0030ED14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC72A0F31C156B4F0030ED14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC72A0F41C156B4F0030ED14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC72A0FE1C156B500030ED14 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC72A0FF1C156B500030ED14 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC72A1141C156B500030ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC72A1151C156B500030ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC72A1171C156B500030ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewTutorial WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.TableViewTutorial.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		EC72A1181C156B500030ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewTutorial WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.TableViewTutorial.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		EC72A11B1C156B500030ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TableViewTutorial_WatchKit_Extension;
+				INFOPLIST_FILE = "TableViewTutorial WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.TableViewTutorial.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		EC72A11C1C156B500030ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TableViewTutorial_WatchKit_Extension;
+				INFOPLIST_FILE = "TableViewTutorial WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.TableViewTutorial.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		EC72A11F1C156B500030ED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.TableViewTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC72A1201C156B500030ED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = synerzip.TableViewTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC72A0E21C156B4F0030ED14 /* Build configuration list for PBXProject "TableViewTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72A1141C156B500030ED14 /* Debug */,
+				EC72A1151C156B500030ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC72A1161C156B500030ED14 /* Build configuration list for PBXNativeTarget "TableViewTutorial WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72A1171C156B500030ED14 /* Debug */,
+				EC72A1181C156B500030ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC72A11A1C156B500030ED14 /* Build configuration list for PBXNativeTarget "TableViewTutorial WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72A11B1C156B500030ED14 /* Debug */,
+				EC72A11C1C156B500030ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC72A11E1C156B500030ED14 /* Build configuration list for PBXNativeTarget "TableViewTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC72A11F1C156B500030ED14 /* Debug */,
+				EC72A1201C156B500030ED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC72A0DF1C156B4F0030ED14 /* Project object */;
+}
